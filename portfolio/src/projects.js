@@ -62,7 +62,7 @@ export default function Project() {
                     <Dialog.Title className="text-base textxl text-center font-semibold leading-6 text-gray-900 m-5">
                       My Projects
                     </Dialog.Title>
-            <div className="border border-gray-200 hover:border-gray-300">
+            <div className="border border-gray-200 hover:border-gray-300 hover:bg-gray-50">
             <p className="font-bold p-2">Whimzee</p>
             <div className=" p-1 lg:h-auto flex-none lg:rounded-t-none lg:rounded-l text-center overflow-hidden p-5">
             <Link
@@ -91,7 +91,8 @@ export default function Project() {
             </div>
 
             </div>
-            <div className="border border-gray-200 hover:border-gray-300">
+            <div className="pt-5"></div>
+            <div className="border border-gray-200 hover:border-gray-300 hover:bg-gray-50">
             <p className="font-bold p-2">CarCar</p>
             <div className=" p-1 lg:h-auto flex-none lg:rounded-t-none lg:rounded-l text-center overflow-hidden p-5">
             <Link
@@ -99,7 +100,7 @@ export default function Project() {
             >
             <img
               className="border shadow"
-              src={require("./images/whimzee_page.jpeg")}
+              src={require("./images/carcar-page.png")}
               alt="project"
             />
             </Link>
