@@ -8,29 +8,36 @@ import saturnRingTexture from './images/saturn_ring_texture.jpg'
 import orangePlanetTexture from './images/orange_planet.jpg'
 import starsTexture from './images/stars.jpg'
 import { Suspense } from 'react';
+import Stats from 'three/addons/libs/stats.module.js';
 
 
 export default function Solarsystem() {
     useEffect(() => {
         const scene = new THREE.Scene();
+        const loader = new THREE.TextureLoader();
+        loader.load(purplePlanetTexture , function(texture)
+                    {
+                     scene.background = texture;
+                    });
         const camera = new THREE.PerspectiveCamera(
             45,
             window.innerWidth/window.innerHeight,
             0.1,
             1000
           );
-
+        const states = new Stats();
         // background
-        const cubeTextureLoader = new THREE.CubeTextureLoader();
-        scene.background = cubeTextureLoader
-            .load([
-            starsTexture,
-            starsTexture,
-            starsTexture,
-            starsTexture,
-            starsTexture,
-            starsTexture
-        ]);
+        // scene.background = new THREE.CubeTextureLoader()
+        //     .load( [
+        //     starsTexture,
+        //     starsTexture,
+        //     starsTexture,
+        //     starsTexture,
+        //     starsTexture,
+        //     starsTexture
+        // ] );
+
+        // scene.background = new THREE.Color( 0xf0f0f0 );
         const canvas = document.getElementById('myThreeJsCanvas')
         const renderer = new THREE.WebGL1Renderer({
             canvas,

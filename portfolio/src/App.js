@@ -14,10 +14,10 @@ function App() {
         path="/"
         element={<LandingPage />}>
         </Route>
-        <Route
+        {/* <Route
         path="/sinaverse"
         element={<Solarsystem />}>
-        </Route>
+        </Route> */}
         </Routes>
     </BrowserRouter>
 
