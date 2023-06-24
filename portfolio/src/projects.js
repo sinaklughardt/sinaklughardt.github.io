@@ -63,7 +63,7 @@ export default function Project() {
                       My Projects
                     </Dialog.Title>
             <div className="border border-gray-200 hover:border-gray-300 hover:bg-gray-50">
-            <p className="font-bold p-2">Whimzee</p>
+            <p className="font-bold p-2">Whimzee - online shopping software</p>
             <div className=" p-1 lg:h-auto flex-none lg:rounded-t-none lg:rounded-l text-center overflow-hidden p-5">
             <Link
             to="https://whimz.gitlab.io/module3-project-gamma/"
@@ -93,7 +93,7 @@ export default function Project() {
             </div>
             <div className="pt-5"></div>
             <div className="border border-gray-200 hover:border-gray-300 hover:bg-gray-50">
-            <p className="font-bold p-2">CarCar</p>
+            <p className="font-bold p-2">CarCar - car dealership software</p>
             <div className=" p-1 lg:h-auto flex-none lg:rounded-t-none lg:rounded-l text-center overflow-hidden p-5">
             <Link
             to="https://gitlab.com/sinaklughardt/carcar"
@@ -130,7 +130,7 @@ export default function Project() {
                   <div className="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
                     <button
                       type="button"
-                      className="mt-3 inline-flex w-full justify-center rounded-md bg-black text-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto"
+                      className="mt-3 inline-flex w-full justify-center rounded-md bg-black text-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-600 sm:mt-0 sm:w-auto"
                       onClick={() => setOpen(false)}
                       ref={cancelButtonRef}
                     >

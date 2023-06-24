@@ -60,7 +60,7 @@ export default function Motivation() {
                 <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
                   <div className="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
                     <Dialog.Title className="text-base textxl text-center font-semibold leading-6 text-gray-900 m-5">
-                      Motivation
+                      My Motivation
                     </Dialog.Title>
             <div className="shadow border border-gray-200 hover:border-gray-300">
             <div className="lg:h-auto flex-none lg:rounded-t-none lg:rounded-l text-center overflow-hidden p-5">
@@ -70,8 +70,14 @@ export default function Motivation() {
               alt="motivation"
             />
             </div>
-            <div className="flex flex-col mt-5 text-black p-3">
-                <p>Teamwork yay motivated</p>
+            <div className="flex flex-col mt-5 text-black p-3 pt-0">
+                <p>I'm a full stack software engineer, fueled by my passion for unleashing the incredible potential of software to transform our world. The thrill of turning ideas into reality through elegant and efficient code brings me immense joy. Whether it's crafting user-friendly interfaces or building robust back-end systems, I love tackling the challenge of creating innovative software solutions.</p>
+                <br></br>
+                <p>Collaboration is key to my approach. I firmly believe that the best projects are born from diverse perspectives and teamwork. Working with talented individuals inspires me to develop solutions that not only meet technical requirements but also address real-world needs. I thrive in an environment where we freely exchange ideas, embrace challenges, and celebrate our collective achievements.</p>
+                <br></br>
+                <p>Above all, I'm motivated by making a meaningful impact. Whether it's enhancing user experiences,
+                streamlining business processes, or contributing to social causes, I'm passionate about creating software that improves people's lives. With my skills and expertise, I'm committed to driving innovation, efficiency, and positive change through purposeful solutions.</p>
+
             </div>
             </div>
             </div>
@@ -79,7 +85,7 @@ export default function Motivation() {
                   <div className="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
                     <button
                       type="button"
-                      className="mt-3 inline-flex w-full justify-center rounded-md bg-black text-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto"
+                      className="mt-3 inline-flex w-full justify-center rounded-md bg-black text-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-600 sm:mt-0 sm:w-auto"
                       onClick={() => setOpen(false)}
                       ref={cancelButtonRef}
                     >

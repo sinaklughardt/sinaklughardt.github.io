@@ -71,7 +71,12 @@ export default function Background() {
             </div>
             <div className="flex flex-col mt-5 text-black p-3">
                 <p className="font-bold">Special Needs Supports Specialist</p>
-                <p>bla bla</p>
+                <br></br>
+                <p>Having studied Special Needs Support in Germany, my journey began with a deep passion for assisting individuals with unique challenges. I had the privilege of working closely with blind people with special needs, providing them with the care and support they required. However, I felt a strong desire to broaden my horizons and explore new opportunities. This led me to embark on a new chapter in San Francisco, seeking to expand my understanding and expertise in the field.</p>
+                <br></br>
+                <p>In San Francisco, I supported a special needs teenager, leading to a transformative experience. I learned American Sign Language (ASL) to establish effective communication, enabling me to fully engage with him and provide the necessary support for his growth and well-being.</p>
+                <br></br>
+                <p>By merging my passion for technology and dedication to supporting those with special needs, I strive to bridge the gap between accessibility and innovation. Together, let's create a more inclusive world where everyone has equal opportunities to thrive and succeed.</p>
             </div>
             </div>
             </div>
@@ -79,7 +84,7 @@ export default function Background() {
                   <div className="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
                     <button
                       type="button"
-                      className="mt-3 inline-flex w-full justify-center rounded-md bg-black text-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto"
+                      className="mt-3 inline-flex w-full justify-center rounded-md bg-black text-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-600 sm:mt-0 sm:w-auto"
                       onClick={() => setOpen(false)}
                       ref={cancelButtonRef}
                     >

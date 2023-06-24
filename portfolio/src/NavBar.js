@@ -1,6 +1,5 @@
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import Background from "./cards/background";
 
 export default function NavBar() {
     const navigate = useNavigate();
@@ -11,14 +10,14 @@ export default function NavBar() {
     }
     return (
         <>
-        <nav className="text-gray-500 bg-gray-100">
+        <nav className="text-gray-500 bg-gray-100 ">
         <div className="flex flex-wrap justify-between mx-auto p-4">
             <button
             onClick={handleClick}>
             <span className="self-center text-2xl hover:text-gray-600">Sinaverse</span>
             </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
+          <ul className="flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
           <li>
               <Link
                 to="https://gitlab.com/sinaklughardt"

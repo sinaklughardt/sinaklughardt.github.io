@@ -43,7 +43,7 @@ export default function LandingPage() {
                 <button className="font-mono text-3xl text-white bg-transparent hover:bg-violet-700 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-violet-700 hover:border-transparent">Enter the Sinaverse</button>
                 </Link> */}
             </div>
-            <div className="flex justify-center">
+            <div className="lg:flex md:flex justify-center">
             <Project />
             <Education />
             <Motivation />
